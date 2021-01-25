@@ -11,6 +11,7 @@ document.querySelector('.close').addEventListener("click", function() {
 $("#buttonReservation").click(function () {
 	$('#reservationModal').modal('show');
 });
+
 var x=1;
 var entry=document.getElementById("sub");
 entry.addEventListener("click",myfunc);
@@ -33,3 +34,4 @@ function myfunc(){
 	cell6.innerHtml=document.getElementById("name").value;
 x++;
 }
+
